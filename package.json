@@ -1,0 +1,25 @@
+{
+  "name": "cucumberwithts",
+  "version": "1.0.0",
+  "description": "this is sample backup Automation project that will used as sample to copy ",
+  "keywords": [
+    "Playwright",
+    "TS"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "cucumber-html-reporter": "^5.0.2",
+    "dotenv": "^18.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "5.9.3"
+  }
+}
